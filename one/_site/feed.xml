@@ -3,8 +3,8 @@
   <channel>
     <title>Mockup 1</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <link>/one/</link>
+    <atom:link href="/one/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -23,8 +23,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Mon, 21 Jul 2014 12:55:23 -0400</pubDate>
-        <link>/jekyll/update/2014/07/21/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">/jekyll/update/2014/07/21/welcome-to-jekyll/</guid>
+        <link>/one/jekyll/update/2014/07/21/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">/one/jekyll/update/2014/07/21/welcome-to-jekyll/</guid>
       </item>
     
   </channel>
