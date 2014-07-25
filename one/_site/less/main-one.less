@@ -1,0 +1,186 @@
+@import "variables.less";
+@import "mixins.less";
+@import "normalize.less";
+@import "scaffolding.less";
+@import "grid.less";
+@import "forms.less";
+@import "input-groups.less";
+@import "list-group.less";
+@import "navs.less";
+@import "type.less";
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://weloveiconfonts.com/api/?family=iconicstroke);
+@font-face { font-family: "Pea Zobrist"; src: url("/assets/peazobrist.ttf") }
+
+[class*="iconicstroke-"]:before {
+  font-family: 'IconicStroke', sans-serif;
+}
+
+body {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+div, p, span {
+  font-family: "Montserrat", sans-serif;
+}
+
+p a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+  
+  &:hover {
+    color: #000;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+header {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  border-bottom: 1px solid #000 !important;
+  min-height: 260px;
+  
+	.site-title {
+		display: block;
+		min-height: 260px;
+		background: url("/assets/omgbren.jpg");
+		background-color: #fed2df;
+		background-position: center top;
+		background-size: contain;
+		background-repeat: no-repeat;
+		border-bottom: 1px solid #000;
+	}
+	
+	.nav-pills {
+	  height: 260px;
+	  border-left: 1px solid #000;
+	  padding-top: 30px;
+	  
+	  a {
+	    font-size: 18px;
+	    color: #000;
+	    border-radius: 0;
+	    text-transform: uppercase;
+	    
+	    &:hover {
+	      background: none;
+	      color: #e12877;
+	    }
+	  }
+	  
+	  li {
+	    border-bottom: 1px solid #000;
+	    
+	    &:last-child {
+	      border-bottom: 0 !important;
+	    }
+	  }
+	  
+	  .active {
+	    a {
+	      background: none;
+	      font-weight: bold;
+	      color: #000;
+	    
+  	    &:hover {
+  	      background: none;
+  	      color: #000 !important;
+  	    }
+	    }
+	  }
+	}
+}
+
+.sidebar {
+  padding-top: 15px;
+  
+  .categories {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      margin-top: 30px;
+    
+      a {
+        font-size: 32px;
+        font-family: "Pea Zobrist";
+        color: #000;
+        
+        &:hover {
+          text-decoration: none;
+          color: #e12877;
+        }
+      }
+    }
+  }
+    
+  .search-form {
+    .form-control {
+      border: 1px solid #000 !important;
+      border-radius: 0px !important;
+      margin-top: 30px;
+    }
+  }
+}
+
+.content {
+  padding-top: 15px;
+  border-left: 1px solid #000;
+  
+  .post-title {
+		font-family: "Bree Serif", serif;
+  }
+  
+  .meta-cats {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    a {
+      color: #e12877;
+      
+      span {
+        font-size: 16px;
+      }
+      
+      &:hover {
+        color: #e12877;
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .post-footer {
+    text-align: center;
+    border-top: 1px dotted #000;
+    border-bottom: 2px solid #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    a {
+      color: #000;
+      font-weight: bold;
+      
+      &:hover {
+        color: #e12877;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.foot {
+  background-color: #000;
+  color: #fff;
+	text-align: center;
+	
+	a {
+	  color: #fff;
+	}
+}
